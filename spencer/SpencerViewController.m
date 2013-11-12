@@ -27,7 +27,7 @@
 }
 - (IBAction)PressMe:(id)sender {
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hello World"
-                                                    message:@"You asked and I did it - branch develop"
+                                                    message:@"You asked for it - branch develop"
                                                    delegate:nil
                                           cancelButtonTitle:@"OK"
                                           otherButtonTitles:nil];
