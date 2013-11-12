@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>427B28F9-0B0A-4188-B886-3E32BE7F47B4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>spencer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>852C0244-709D-4937-B757-F0BFF30A9C6F</key>
+		<string>https://github.com/ksonberg/spencer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>spencer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>852C0244-709D-4937-B757-F0BFF30A9C6F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ksonberg/spencer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>852C0244-709D-4937-B757-F0BFF30A9C6F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>852C0244-709D-4937-B757-F0BFF30A9C6F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>spencer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

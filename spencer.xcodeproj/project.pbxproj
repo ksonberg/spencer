@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC6C8C4C1832C37D00B7826F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C8C4B1832C37D00B7826F /* Foundation.framework */; };
+		FC6C8C4E1832C37D00B7826F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C8C4D1832C37D00B7826F /* CoreGraphics.framework */; };
+		FC6C8C501832C37D00B7826F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C8C4F1832C37D00B7826F /* UIKit.framework */; };
+		FC6C8C561832C37D00B7826F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC6C8C541832C37D00B7826F /* InfoPlist.strings */; };
+		FC6C8C581832C37D00B7826F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C8C571832C37D00B7826F /* main.m */; };
+		FC6C8C5C1832C37D00B7826F /* SpencerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C8C5B1832C37D00B7826F /* SpencerAppDelegate.m */; };
+		FC6C8C5F1832C37D00B7826F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6C8C5D1832C37D00B7826F /* Main.storyboard */; };
+		FC6C8C621832C37D00B7826F /* SpencerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C8C611832C37D00B7826F /* SpencerViewController.m */; };
+		FC6C8C641832C37D00B7826F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6C8C631832C37D00B7826F /* Images.xcassets */; };
+		FC6C8C6B1832C37D00B7826F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C8C6A1832C37D00B7826F /* XCTest.framework */; };
+		FC6C8C6C1832C37D00B7826F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C8C4B1832C37D00B7826F /* Foundation.framework */; };
+		FC6C8C6D1832C37D00B7826F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C8C4F1832C37D00B7826F /* UIKit.framework */; };
+		FC6C8C751832C37D00B7826F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC6C8C731832C37D00B7826F /* InfoPlist.strings */; };
+		FC6C8C771832C37D00B7826F /* spencerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6C8C761832C37D00B7826F /* spencerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC6C8C6E1832C37D00B7826F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC6C8C401832C37D00B7826F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC6C8C471832C37D00B7826F;
+			remoteInfo = spencer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC6C8C481832C37D00B7826F /* spencer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spencer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6C8C4B1832C37D00B7826F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC6C8C4D1832C37D00B7826F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC6C8C4F1832C37D00B7826F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC6C8C531832C37D00B7826F /* spencer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spencer-Info.plist"; sourceTree = "<group>"; };
+		FC6C8C551832C37D00B7826F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC6C8C571832C37D00B7826F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC6C8C591832C37D00B7826F /* spencer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "spencer-Prefix.pch"; sourceTree = "<group>"; };
+		FC6C8C5A1832C37D00B7826F /* SpencerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpencerAppDelegate.h; sourceTree = "<group>"; };
+		FC6C8C5B1832C37D00B7826F /* SpencerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpencerAppDelegate.m; sourceTree = "<group>"; };
+		FC6C8C5E1832C37D00B7826F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC6C8C601832C37D00B7826F /* SpencerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpencerViewController.h; sourceTree = "<group>"; };
+		FC6C8C611832C37D00B7826F /* SpencerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpencerViewController.m; sourceTree = "<group>"; };
+		FC6C8C631832C37D00B7826F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC6C8C691832C37D00B7826F /* spencerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spencerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6C8C6A1832C37D00B7826F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC6C8C721832C37D00B7826F /* spencerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spencerTests-Info.plist"; sourceTree = "<group>"; };
+		FC6C8C741832C37D00B7826F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC6C8C761832C37D00B7826F /* spencerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spencerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC6C8C451832C37D00B7826F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6C8C4E1832C37D00B7826F /* CoreGraphics.framework in Frameworks */,
+				FC6C8C501832C37D00B7826F /* UIKit.framework in Frameworks */,
+				FC6C8C4C1832C37D00B7826F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6C8C661832C37D00B7826F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6C8C6B1832C37D00B7826F /* XCTest.framework in Frameworks */,
+				FC6C8C6D1832C37D00B7826F /* UIKit.framework in Frameworks */,
+				FC6C8C6C1832C37D00B7826F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC6C8C3F1832C37D00B7826F = {
+			isa = PBXGroup;
+			children = (
+				FC6C8C511832C37D00B7826F /* spencer */,
+				FC6C8C701832C37D00B7826F /* spencerTests */,
+				FC6C8C4A1832C37D00B7826F /* Frameworks */,
+				FC6C8C491832C37D00B7826F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6C8C491832C37D00B7826F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6C8C481832C37D00B7826F /* spencer.app */,
+				FC6C8C691832C37D00B7826F /* spencerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6C8C4A1832C37D00B7826F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC6C8C4B1832C37D00B7826F /* Foundation.framework */,
+				FC6C8C4D1832C37D00B7826F /* CoreGraphics.framework */,
+				FC6C8C4F1832C37D00B7826F /* UIKit.framework */,
+				FC6C8C6A1832C37D00B7826F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC6C8C511832C37D00B7826F /* spencer */ = {
+			isa = PBXGroup;
+			children = (
+				FC6C8C5A1832C37D00B7826F /* SpencerAppDelegate.h */,
+				FC6C8C5B1832C37D00B7826F /* SpencerAppDelegate.m */,
+				FC6C8C5D1832C37D00B7826F /* Main.storyboard */,
+				FC6C8C601832C37D00B7826F /* SpencerViewController.h */,
+				FC6C8C611832C37D00B7826F /* SpencerViewController.m */,
+				FC6C8C631832C37D00B7826F /* Images.xcassets */,
+				FC6C8C521832C37D00B7826F /* Supporting Files */,
+			);
+			path = spencer;
+			sourceTree = "<group>";
+		};
+		FC6C8C521832C37D00B7826F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC6C8C531832C37D00B7826F /* spencer-Info.plist */,
+				FC6C8C541832C37D00B7826F /* InfoPlist.strings */,
+				FC6C8C571832C37D00B7826F /* main.m */,
+				FC6C8C591832C37D00B7826F /* spencer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC6C8C701832C37D00B7826F /* spencerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6C8C761832C37D00B7826F /* spencerTests.m */,
+				FC6C8C711832C37D00B7826F /* Supporting Files */,
+			);
+			path = spencerTests;
+			sourceTree = "<group>";
+		};
+		FC6C8C711832C37D00B7826F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC6C8C721832C37D00B7826F /* spencerTests-Info.plist */,
+				FC6C8C731832C37D00B7826F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC6C8C471832C37D00B7826F /* spencer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6C8C7A1832C37D00B7826F /* Build configuration list for PBXNativeTarget "spencer" */;
+			buildPhases = (
+				FC6C8C441832C37D00B7826F /* Sources */,
+				FC6C8C451832C37D00B7826F /* Frameworks */,
+				FC6C8C461832C37D00B7826F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spencer;
+			productName = spencer;
+			productReference = FC6C8C481832C37D00B7826F /* spencer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC6C8C681832C37D00B7826F /* spencerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6C8C7D1832C37D00B7826F /* Build configuration list for PBXNativeTarget "spencerTests" */;
+			buildPhases = (
+				FC6C8C651832C37D00B7826F /* Sources */,
+				FC6C8C661832C37D00B7826F /* Frameworks */,
+				FC6C8C671832C37D00B7826F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6C8C6F1832C37D00B7826F /* PBXTargetDependency */,
+			);
+			name = spencerTests;
+			productName = spencerTests;
+			productReference = FC6C8C691832C37D00B7826F /* spencerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6C8C401832C37D00B7826F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Spencer;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ken Sonberg";
+				TargetAttributes = {
+					FC6C8C681832C37D00B7826F = {
+						TestTargetID = FC6C8C471832C37D00B7826F;
+					};
+				};
+			};
+			buildConfigurationList = FC6C8C431832C37D00B7826F /* Build configuration list for PBXProject "spencer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC6C8C3F1832C37D00B7826F;
+			productRefGroup = FC6C8C491832C37D00B7826F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC6C8C471832C37D00B7826F /* spencer */,
+				FC6C8C681832C37D00B7826F /* spencerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC6C8C461832C37D00B7826F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6C8C641832C37D00B7826F /* Images.xcassets in Resources */,
+				FC6C8C561832C37D00B7826F /* InfoPlist.strings in Resources */,
+				FC6C8C5F1832C37D00B7826F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6C8C671832C37D00B7826F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6C8C751832C37D00B7826F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC6C8C441832C37D00B7826F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6C8C581832C37D00B7826F /* main.m in Sources */,
+				FC6C8C621832C37D00B7826F /* SpencerViewController.m in Sources */,
+				FC6C8C5C1832C37D00B7826F /* SpencerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6C8C651832C37D00B7826F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6C8C771832C37D00B7826F /* spencerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC6C8C6F1832C37D00B7826F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC6C8C471832C37D00B7826F /* spencer */;
+			targetProxy = FC6C8C6E1832C37D00B7826F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC6C8C541832C37D00B7826F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6C8C551832C37D00B7826F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC6C8C5D1832C37D00B7826F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6C8C5E1832C37D00B7826F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC6C8C731832C37D00B7826F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6C8C741832C37D00B7826F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC6C8C781832C37D00B7826F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC6C8C791832C37D00B7826F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC6C8C7B1832C37D00B7826F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spencer/spencer-Prefix.pch";
+				INFOPLIST_FILE = "spencer/spencer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC6C8C7C1832C37D00B7826F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spencer/spencer-Prefix.pch";
+				INFOPLIST_FILE = "spencer/spencer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC6C8C7E1832C37D00B7826F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/spencer.app/spencer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spencer/spencer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "spencerTests/spencerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC6C8C7F1832C37D00B7826F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/spencer.app/spencer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spencer/spencer-Prefix.pch";
+				INFOPLIST_FILE = "spencerTests/spencerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC6C8C431832C37D00B7826F /* Build configuration list for PBXProject "spencer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6C8C781832C37D00B7826F /* Debug */,
+				FC6C8C791832C37D00B7826F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6C8C7A1832C37D00B7826F /* Build configuration list for PBXNativeTarget "spencer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6C8C7B1832C37D00B7826F /* Debug */,
+				FC6C8C7C1832C37D00B7826F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC6C8C7D1832C37D00B7826F /* Build configuration list for PBXNativeTarget "spencerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6C8C7E1832C37D00B7826F /* Debug */,
+				FC6C8C7F1832C37D00B7826F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC6C8C401832C37D00B7826F /* Project object */;
+}
